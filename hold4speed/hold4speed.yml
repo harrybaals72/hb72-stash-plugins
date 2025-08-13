@@ -1,0 +1,7 @@
+name: hold4speed
+description: Hold a key to change playback speed
+version: 0.1.0
+# requires: wfke
+ui:
+  javascript:
+  - hold4speed.js
