@@ -1,0 +1,6 @@
+name: Rating Shortcut
+description: Adds keyboard shortcuts to increase or decrease scene ratings.
+version: 1.0.0
+ui:
+  javascript:
+    - ratingShortcut.js

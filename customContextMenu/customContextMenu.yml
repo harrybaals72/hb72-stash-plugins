@@ -1,0 +1,7 @@
+name: customContextMenu
+description: customContextMenu
+version: 0.1.0
+# requires: wfke
+ui:
+  javascript:
+  - customContextMenu.js
