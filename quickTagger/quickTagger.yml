@@ -3,7 +3,6 @@ description: Adds a quick tagger intended to be used with macros.
 version: 1.0
 ui:
   requires: 
-  - StashUserscriptLibrary
   - CommunityScriptsUILibrary
   javascript:
   - main.js
