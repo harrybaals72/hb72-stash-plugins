@@ -1,0 +1,13 @@
+name: Metadata Auto Tag Plus
+description: Auto-tags scenes based on Title and Details.
+version: 1.0
+url: https://github.com/stashapp/stash
+tasks:
+  - name: autoTagMetadata
+    description: Search scenes by Title/Details and add tag
+    executable: python
+    args:
+      - metadata_autotag_plus.py
+ui:
+  javascript:
+    - metadata_autotag_plus.js
