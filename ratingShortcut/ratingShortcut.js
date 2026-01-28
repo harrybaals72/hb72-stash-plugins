@@ -28,18 +28,18 @@
                 }
             };
 
-            // Bind keys: Shift + Up/Down for 0.5 increments (5 units)
-            // Bind keys: Alt + Up/Down for 0.1 increments (1 unit)
-            Mousetrap.bind("shift+up", () => adjustRating(5));
-            Mousetrap.bind("shift+down", () => adjustRating(-5));
-            Mousetrap.bind("alt+up", () => adjustRating(1));
-            Mousetrap.bind("alt+down", () => adjustRating(-1));
+            // Bind keys: Shift + [ and ] for 5 unit increments
+            // Bind keys: Alt + [ and ] for 1 unit increments
+            Mousetrap.bind("shift+[", () => adjustRating(-5));
+            Mousetrap.bind("shift+]", () => adjustRating(5));
+            Mousetrap.bind("alt+[", () => adjustRating(-1));
+            Mousetrap.bind("alt+]", () => adjustRating(1));
 
             return () => {
-                Mousetrap.unbind("shift+up");
-                Mousetrap.unbind("shift+down");
-                Mousetrap.unbind("alt+up");
-                Mousetrap.unbind("alt+down");
+                Mousetrap.unbind("shift+[");
+                Mousetrap.unbind("shift+]");
+                Mousetrap.unbind("alt+[");
+                Mousetrap.unbind("alt+]");
             };
         }, [scene.id, scene.rating100, updateScene]);
 
