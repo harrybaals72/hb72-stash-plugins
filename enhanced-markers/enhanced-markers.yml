@@ -1,9 +1,0 @@
-name: Enhanced Markers
-description: Adds a delete button to markers in the video player and allows custom tag colors.
-version: 1.0
-url: https://github.com/stashapp/stash
-ui:
-  javascript:
-    - enhanced-markers.js
-  css:
-    - enhanced-markers.css
