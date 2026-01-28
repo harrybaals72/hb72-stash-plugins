@@ -1,0 +1,17 @@
+name: Quick tagger
+description: Adds a quick tagger intended to be used with macros.
+version: 1.0
+ui:
+  requires: 
+  - StashUserscriptLibrary
+  - CommunityScriptsUILibrary
+  javascript:
+  - main.js
+  - createSceneElements.js
+  - createTaggerElements.js
+  - createMarkerElements.js
+  - setTags.js
+  - setMarker.js
+  - queries.js
+  - mutations.js
+  - timestamp.js
