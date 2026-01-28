@@ -1,0 +1,23 @@
+.vjs-marker-tooltip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 8px !important;
+    pointer-events: auto !important; /* Allow clicking buttons inside tooltip */
+}
+
+.vjs-marker-delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.vjs-marker-delete-btn:hover {
+    background-color: #c82333;
+}

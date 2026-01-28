@@ -9,9 +9,10 @@
 c - activate/ deactivate captions
 */
 
-// declarations
-let player, framestep;
-let markers = [];
+(function() {
+    // declarations
+    let player, framestep;
+    let markers = [];
 
 function wfke(selector, callback) {
     var el = document.querySelector(selector);
@@ -138,4 +139,5 @@ function showCustomMenu(x, y) {
 }
 
 wfke("video-js", init);
-PluginApi.Event.addEventListener("stash:location", () => wfke("video-js", init))
+PluginApi.Event.addEventListener("stash:location", () => wfke("video-js", init));
+})();
